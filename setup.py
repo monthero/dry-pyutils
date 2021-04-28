@@ -34,7 +34,7 @@ def get_requirements(dev: bool = False) -> List[str]:
     return install_requires
 
 
-DESCRIPTION: str = "A python wrapper to work with Google's Kintaro's API"
+DESCRIPTION: str = "A set of python utility methods"
 GITHUB_URL: str = "https://github.com/monthero/dry-pyutils"
 
 # Setting up
@@ -53,7 +53,6 @@ setup(
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     python_requires=">=3.5.0",
-    # package_dir={"": "kintaro_client"},
     packages=find_packages(exclude=["tests*"]),
     install_requires=get_requirements(),
     extra_requires={
