@@ -40,7 +40,7 @@ GITHUB_URL: str = "https://github.com/monthero/dry-pyutils"
 # Setting up
 setup(
     name="DRY-python-utilities",
-    version='1.0.0',
+    version="1.0.0",
     author="Vasco Monteiro",
     author_email="vmnokk@gmail.com",
     url=GITHUB_URL,
