@@ -37,7 +37,7 @@ MIT
 A special thank you to [bleach](https://github.com/mozilla/bleach) and [python-slugify](https://github.com/un33k/python-slugify).
 
 [package-name]: https://img.shields.io/badge/DRY%20Python%20Utilities-blue.svg
-[curr-version-badge]: https://img.shields.io/badge/version-1.0.0-coral.svg
+[curr-version-badge]: https://img.shields.io/badge/version-1.0.0-red.svg
 [python-version-badge]: https://img.shields.io/badge/python-%3E=%203.5-green.svg
 [license]: ./LICENSE
 [license-badge]: https://img.shields.io/badge/license-MIT-yellow.svg
