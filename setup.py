@@ -4,10 +4,8 @@ from typing import List
 from setuptools import find_packages, setup
 
 
-assert sys.version_info >= (3, 5, 0), "kintaro-api-client requires Python 3.5+"
+assert sys.version_info >= (3, 5, 0), "dry-pyutils requires Python 3.5+"
 from pathlib import Path  # noqa E402
-
-from dry_pyutils import __version__
 
 
 CURRENT_DIR = Path(__file__).parent
@@ -41,8 +39,8 @@ GITHUB_URL: str = "https://github.com/monthero/dry-pyutils"
 
 # Setting up
 setup(
-    name="DRY-Python-Utilities",
-    version=__version__,
+    name="DRY-python-utilities",
+    version='1.0.0',
     author="Vasco Monteiro",
     author_email="vmnokk@gmail.com",
     url=GITHUB_URL,
@@ -58,7 +56,7 @@ setup(
     # package_dir={"": "kintaro_client"},
     packages=find_packages(exclude=["tests*"]),
     install_requires=get_requirements(),
-    extras_requires={
+    extra_requires={
         "dev": get_requirements(dev=True),
     },
     include_package_data=True,
