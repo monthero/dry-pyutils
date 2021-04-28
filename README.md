@@ -16,7 +16,7 @@ This package's goal is to offer a set of utility methods I end up using in a lot
 ## Installation
 Install the package using pip, or easy_install
 ```shell
-$ pip install dry-pyutils
+$ pip install DRY-python-utilities
 ```
 
 ## Changelog
